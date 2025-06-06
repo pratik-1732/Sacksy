@@ -1,0 +1,26 @@
+{
+  "name": "sacksy",
+  "version": "1.0.0",
+  "description": "An e-commerce website offering a wide range of bags for all users with seamless browsing and shopping experience.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratik-1732/Sacksy-.git"
+  },
+  "author": "Pratik Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratik-1732/Sacksy-/issues"
+  },
+  "homepage": "https://github.com/pratik-1732/Sacksy-#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1"
+  }
+}
