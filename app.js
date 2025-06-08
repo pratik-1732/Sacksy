@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const cookieParser = require("cookie-parser");
+const db = require("./config/mongooseConnection");
 
 const app = express();
 const PORT = 3000;

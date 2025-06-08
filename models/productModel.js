@@ -1,8 +1,7 @@
-const { name } = require("ejs");
 const mongoose = require("mongoose");
 
 const productSchema = mongoose.Schema({
-  name: String,
+  fullname: String,
   price: Number,
   discount: {
     type: Number,
